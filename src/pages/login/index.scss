@@ -1,0 +1,27 @@
+.login-page {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+
+  .login-form-container {
+    border: 1px solid pink;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #ccc;
+
+    .title {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .username ~ .password {
+      padding-top: 20px;
+    }
+
+    input {
+      height: 30px;
+    }
+  }
+}
